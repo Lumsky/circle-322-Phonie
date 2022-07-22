@@ -1,19 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
-
+    <title>Phonie</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <h2>make some magic here!!</h2>
+  <nav id="nav-bar">
+    <span id="icon">CIRCLE-322</span>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Wizard</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Provider Wizard</h1>
+    <p>Welcome to <strong>Circle 322! wizard</strong></p>
+    <p>Please check your network service provider. or  click <a href="#" id="oversabi">here</a></p>
+  <div id="form-container">
+    <form action="" method="post">
+      <div>
+        <label for="name">Please enter your name : </label>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <div>
+        <label for="city">Please enter the name of your city:</label>
+        <input type="text" name="city" id="city" required />
+      </div>
+      <div>
+        <label for="email">Please enter an email address:</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div>
+        <label for="Phone">Please enter your phone number:</label>
+        <input type="tel" name="Phone_number" id="Phone_number" pattern="" title="Mtn-only"required />
+      </div>
+      <label for="Gender">What gender do you identify as?</label><br>
+        <input type="radio" name="Gender" id="Female" pattern="" title="Female"required />
+        <label for="Female">Female</label><br>
+        <input type="radio" name="Gender" id="Male" value="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" name="Gender" id="Other"  value="Other">
+        <label for="Other">Other</label><br>
 
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
-    <script src="index.mjs" type="module"></script>
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+       
+      </div>
+      <button id="button">Make Magic</button>
+  </div>
+  </form>
+  <h2></h2>
+  </main>
+  <footer></footer>
+
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
+  <script src="index.mjs" type="module"></script>
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
 </body>
+
 </html>
